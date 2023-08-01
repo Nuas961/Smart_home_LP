@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*HEADER*/
+.header {
+    width: 100%;
+    height: 768px;
+}
+
+.header-nav {
+    width: 1200px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.header-nav a {
+    margin-right: 1180px;
+}
+
+.header-title img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.header-title__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 780px;
+    height: 150px;
+    margin: -210px 0px 0px 350px;
+}
+
+.header-title__text h1 {
+    font-size: 44px;
+    margin: 0px 0px 20px 0px;
+}
+
+.header-title__text p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: white;
+}
+
+/*CONTACT US*/
+.contact {
+    display: flex;  
+    margin: -350px 0px 0px 250px;
+}
+
+.contact h2, p, span {
+    color: #1F3F68;
+}
+
+.contact p, span {
+    opacity: 80%;
+}
+
+.contact-block {
+    width: 300px;
+    margin: 55px 0px 0px 0px;
+}
+
+.contact-block__img {
+    margin: 0px 0px 50px 0px;
+}
+
+.contact-block h2 {
+    font-size: 20px;
+    margin: 30px 0px 30px 0px;
+}
+
+.contact-block p {
+    line-height: 26px;
+    letter-spacing: 0.04em;
+}
+
+.contact-message {
+    width: 540px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 50px 0px #1070B133;
+}
+
+.contact-message__block {
+    margin: 40px 0px 0px 40px;  
+}
+
+.contact-message__block h2 {
+    font-size: 20px;
+    margin: 0px 0px 60px 0px;
+}
+
+.contact-message__block p {
+    margin: 40px 0px 15px 0px;
+}
+
+.contact-message__block input {
+    padding: 30px 230px 30px 50px;
+    color: #356EAD;
+    border: 1px solid #356EAD;
+    opacity: 40%;
+    border-radius: 10px;
+}
+
+.your-message {
+    padding: 30px 230px 100px 50px !important;
+}
+
+.contact-message button {
+    width: 450px;
+    height: 72px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px 0px #1070B133;
+    background: #5A98D0;
+    color: white;
+    border: none;
+    margin: 60px 0px 0px 40px;
+}
+
+.contact-block,
+.contact-message {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    margin-right: 100px;
+}
+
+/**/
+.contact-link,
+.service-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+    margin: 0px 0px 10px 0px;
+}
+
+.icon {
+    margin-right: 8px;
+}
+
+.text {
+    display: inline-block;
+}
+
+/*MAPS*/
+.maps {
+    margin: 50px 0px 0px 250px;
+}
+
+/*FOOTER*/  
+.footer {
+    color: white;
+}
+.footer-block img {
+    position: absolute;
+    height: 870px;
+    top: 360%;
+    border-radius: 0px 200px 0px 0px;
+}
+
+.footer-block div {
+    position: absolute;
+    margin: 200px 0px 0px 250px;
+    width: 490px;
+    height: 204px;
+}
+
+.footer-block h3 {
+    width: 350px;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    margin: 0px 0px 30px 0px;
+}
+
+.footer-block p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+.footer-block button {
+    position: absolute;
+    width: 220px;
+    height: 56px;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    background: #5A98D0;
+    color: white;
+    border: none;
+    margin: -150px 0px 0px 650px;
+}
+
+.footer-block hr {
+    width: 1120px;
+    border: 1px solid white;
+    margin: 100px 0px 0px -250px;
+
+}
+
+/**/
+.footer-contact {
+    position: absolute;
+    display: flex;
+    width: 850px;
+    height: 340px;
+    margin: 600px 0px 0px 250px; 
+}
+
+.footer-contact__connect-us span {
+    margin-right: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-contact__connect-us p {
+    color: white;
+}
+
+.connect-us__a {
+    margin-top: 20px;
+}
+
+.connect-us__a a {
+    display: flex;
+    margin: 15px 0px 10px 0px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+}
+
+.footer-contact__connect-us p {
+    opacity: 40%;
+    margin: 50px 0px 0px 0px;
+}
+
+.footer-contact__connect-us,
+.footer-contact__about-us,
+.footer-contact__follow-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contact__connect-us a,
+.footer-contact__about-us a,
+.footer-contact__follow-us a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-contact__connect-us img {
+    width: 48px;
+    height: 48px;
+}
+
+.connect-us__logo {
+    display: flex;
+    align-items: center;
+}
+
+.connect-us__logo-blockpage {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0px 0px 0px 15px;
+}
+
+.footer-contact__connect-us {
+    width: 300px;
+}
+
+.about-us,
+.follow-us {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    margin: 0px 0px 50px 0px !important;
+}
+
+.footer-contact__about-us {
+    position: absolute;
+    margin: 0px 0px 0px 400px;
+}
+
+.footer-contact__follow-us {
+    position: absolute;
+    margin: 0px 0px 0px 650px;
+}
+
+.footer-contact__about-us a,
+.footer-contact__follow-us a {
+    margin: 0px 0px 20px 0px;
+}
